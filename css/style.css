@@ -1,4 +1,136 @@
-:root {
-    --light: #34E4CB;
-    --dark: #686A6C;
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  
+  :root {
+    --bg-color: #34E4CB;
+    --light: white;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  #navHead {
+    padding: 20px;
+    margin: 0px;
+    text-align: space-around;
+    justify-content: center;
+    padding-left: 25px;
+    background: var(--bg-color);
+    color: var(--light);
+    font-size: 20px;
+    height: 200px;
+  }
+  
+  #navHead ul li {
+    list-style-type: none;
+    margin: 00px;
+    padding: 50px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #navHead a {
+    color: var(--light);
+    text-decoration: none;
+  }
+  
+  #navHead a:hover {
+    color: rgb(11, 125, 239);
+  }
+  
+  #navHead h1 {
+    margin-top: 10px;
+  }
+  
+  #heroDiv h1 pre:hover {
+    color: var(--bg-color);
+  }
+
+  #heroDiv h2:hover {
+    color: var(--bg-color);
+  }
+
+  #heroDiv h1 {
+    position: relative
+  }
+
+  #heroDiv h2 {
+    position: absolute;
+    margin-left: 0px;
+  }
+
+  #about {
+    background: var(--bg-color);
+    height: 375px;
+  }
+  #about h2 {
+    text-align: center;
+    padding: 20px;
+    color: var(--light);
+    text-shadow: 2px 2px black;
+  }
+  
+  #about p {
+    text-align: center;
+    color: var(--light);
+    margin: 2px;
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+    text-decoration: wavy;
+  }
+
+  #work {
+    background-color: black;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.card-title {
+    mx-auto
+}
+
+#work h1 {
+    text-align: center;
+}
+
+.contactMe,
+.socialLinks {
+  margin: 0%;
+  padding: 0%;
+  background: var(--bg-color);
+  color: var(--light);
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100px;
+  padding-top: 20px;
+  color: var(--light);
+}
+
+.socialLinks a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.socialLinks a:hover {
+  color: rgb(11, 125, 239);
+  box-shadow: 10px 5px 5px black;
+}
+
+.icons {
+    margin: 500px;
 }
