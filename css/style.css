@@ -289,6 +289,7 @@ background-color: var(--bg-color)!important;
     #about {padding-bottom: 30px;}
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1025px) {
     .nav-link {display: none;}
-  }
+    #davis {position: absolute; justify-content: center;}
+      }
