@@ -6,7 +6,7 @@ The project website is available on my current GitHub Pages link. To access and 
 
 
 ## Usage
-<a href="https://ibb.co/NLf7KcQ"><img src="https://i.ibb.co/9qBGWQz/Assignment3-Finito.jpg" alt="Assignment3-Finito" border="0"></a>
+<a href="https://ibb.co/bJHmRvd"><img src="https://i.ibb.co/YZDQTdj/Assignment3-Complete.jpg" alt="Assignment3-Complete" border="0"></a>
 
 As this is a regular website, usage of the actual website should be very straightforward. Please note the screenshot of this portfolio will auto-delete after two weeks. If you require a new one, please let me know.
 
